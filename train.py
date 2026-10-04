@@ -2,6 +2,7 @@ from typing import Optional
 
 import numpy as np
 import torch
+import torch.distributed as dist
 import torch.nn.functional as F
 import torch.multiprocessing as mp
 from torch.nn.parallel import DistributedDataParallel as DDP
